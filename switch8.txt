@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(){
+intn;
+printf("enter a number");
+scanf("%d",&n);
+  switch(n % 2){
+case0:printf("%d is even\n",n);
+break;
+case1:printf("%d is odd\n",n);
+break;
+}
+return 0;
+}
